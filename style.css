@@ -199,6 +199,8 @@ footer {
 /*------MEDIA QUERIES-------*/
 
 @media screen and (min-width: 300px) and (max-width: 1250px)
+    body{
+background:white;}
 { 
     .grid-box {
         background: #1e1f30;
