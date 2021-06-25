@@ -118,7 +118,7 @@ main, .wrapper{
 
 .grid-box {
     background: #1e1f30;
-    height: 7rem;
+    height: 9rem;
     width: 8rem;
     margin: 6px;
 
@@ -198,9 +198,7 @@ footer {
 
 /*------MEDIA QUERIES-------*/
 
-@media screen and (min-width: 300px) and (max-width: 1250px)
-    body{
-background:white;}
+@media screen and (min-width: 500px) and (max-width: 1250px)
 { 
     .grid-box {
         background: #1e1f30;
@@ -216,14 +214,14 @@ background:white;}
     .wrapper, #projects{
         background:white;
         color: black;
-    font-size:small;
+    font-size:x-small;
     height: 70%;}
        
     header {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: x-small;
+        font-size: small;
     }
     
     #logo img{
