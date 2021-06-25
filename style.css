@@ -112,7 +112,7 @@ main, .wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 80px;
+    padding-top: 30px;
     margin-bottom: 20px;
 }
 
