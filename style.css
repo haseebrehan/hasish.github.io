@@ -85,6 +85,7 @@ main, .wrapper{
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 10%;
+    min-width: 50%;
 }
  #linkcontact{
   
@@ -136,6 +137,9 @@ main, .wrapper{
     color: #ebebeb;
     text-align: center;
     padding-top: 5%;
+}
+.jumbotron-fluid img {
+    width: 100%;
 }
 
 #about {
@@ -194,11 +198,30 @@ footer {
 
 /*------MEDIA QUERIES-------*/
 
-@media screen and (max-width: 770px){
+@media screen and (min-width: 500px) and (max-width: 1250px)
+{ 
+    .grid-box {
+        background: #1e1f30;
+        height: 4rem;
+        width: 4rem;
+        margin: 6px;
+    
+    }
+    .grid-box img {
+        width: 70%;
+    }
+    
+    .wrapper, #projects{
+        background:white;
+        color: black;
+    font-size:small;
+    height: 70%;}
+       
     header {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        font-size: small;
     }
     
     #logo img{
